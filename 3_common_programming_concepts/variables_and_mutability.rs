@@ -3,7 +3,7 @@ fn main() {
     let a = 32;
     // Explicit type
     let b: bool = true;
-    let c: i8 = 0x7f;
+    let c: i8 = 0x7f; // explicit type annotation
     let d = "Rusty";
     println!("a = {} b = {} c = {} d = {}", a, b, c, d);
 
@@ -16,6 +16,7 @@ fn main() {
     let mut y = 14;
     println!("y = {}", y);
     y = 16;
+
     println!("y = {}", y);
 
     // constant
